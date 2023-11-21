@@ -1,0 +1,56 @@
+/* completed-items.css */
+
+.completed-items-content {
+  background-color: rgba(255, 255, 255, 0.753);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 80vh; /* Set a max height */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.completed-items-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.completed-items-table {
+  max-width: 60vh;
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.completed-items-table th,
+.completed-items-table td {
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.completed-items-table th {
+  background-color: rgba(245, 245, 245, 0.8);
+}
+
+.back-button {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .completed-items-content {
+    max-width: 90%; /* Adjust the content width for smaller screens */
+  }
+
+  .completed-items-title {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .completed-items-table {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .back-button {
+    width: 100%; /* Make the button full width on smaller screens */
+  }
+}

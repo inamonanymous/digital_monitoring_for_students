@@ -1,0 +1,47 @@
+/* borrowed-items.css */
+
+.borrowed-items-container {
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.borrowed-items-content {
+  background-color: rgba(255, 255, 255, 0.753);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.borrowed-items-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.borrowed-items-table {
+  max-width: 60vh;
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.borrowed-items-table th,
+.borrowed-items-table td {
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.borrowed-items-table th {
+  background-color: rgba(245, 245, 245, 0.8);
+}
+
+/* Optional: To make the table responsive on smaller screens */
+@media (max-width: 768px) {
+
+  .borrowed-items-table {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+}

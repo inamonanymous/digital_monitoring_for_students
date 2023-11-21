@@ -1,0 +1,65 @@
+/* greetings.css */
+
+.dashboard-container {
+  
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.greetings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: relative;
+  background-image: url('/src/img/background-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.greetings-header {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  position: absolute;
+  top: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: fit-content;
+  padding: 0.5%;
+  border-radius:2vmin;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius:2vmin;
+}
+
+.dashboard-button {
+  font-size: 24px;
+  padding: 15px 30px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+}
