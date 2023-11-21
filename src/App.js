@@ -9,7 +9,7 @@ import RequestEquipment from './request-equipment';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" exact element={<Greeting />} />
         <Route path="/dashboard" exact element={<Dashboard />} />
