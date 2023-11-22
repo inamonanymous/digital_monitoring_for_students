@@ -16,7 +16,7 @@ function BorrowedItems() {
   });
 
   useEffect(() => {
-    fetch('/user/borrowed-items')
+    fetch('https://2joinsenterprise.pythonanywhere.com/user/borrowed-items')
       .then((response) => response.json())
       .then((data) => {
         setItems(data);

@@ -19,7 +19,7 @@ function PendingItems() {
   });
 
   useEffect(() => {
-    fetch('/user/pending-items')
+    fetch('https://2joinsenterprise.pythonanywhere.com/user/pending-items')
       .then((response) => response.json())
       .then((data) => {
         setItems(data);

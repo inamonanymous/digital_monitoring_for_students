@@ -15,7 +15,7 @@ function CompletedItems() {
   }
 
   useEffect(() => {
-    fetch('/user/completed-items')
+    fetch('https://2joinsenterprise.pythonanywhere.com/user/completed-items')
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

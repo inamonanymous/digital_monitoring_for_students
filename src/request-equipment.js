@@ -25,7 +25,7 @@ function RequestEquipment() {
 
   useEffect(() => {
     // Fetch data from the '/request-equipment/:equip_id' route
-    fetch(`/user/equipments/${equip_unique_key}`)
+    fetch(`https://2joinsenterprise.pythonanywhere.com/user/equipments/${equip_unique_key}`)
       .then((response) => response.json())
       .then((data) => {
         // Update the state with the fetched data

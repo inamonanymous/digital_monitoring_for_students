@@ -52,7 +52,7 @@ function PostStudentData({ args_requested_item }) {
       };
 
       const response = await axios.post(
-        'http://127.0.0.1:5000/user/student',
+        'https://2joinsenterprise.pythonanywhere.com/user/student',
         mergedData,
         {
           headers: {
