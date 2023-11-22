@@ -29,7 +29,6 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <div className="dashboard-content">
-        <h1 className="display-title">Digital Sports Equipment Monitoring System</h1>
         <p className="lead">Empower athletes, coaches, and sports enthusiasts with cutting-edge technology. Track, analyze, and optimize your sporting experience like never before. Enhance performance, prevent injuries, and revolutionize the way you engage with sports equipment. Your journey to peak performance starts here.</p>
         <div className="buttons">
           {buttons.map((button, index) => (
