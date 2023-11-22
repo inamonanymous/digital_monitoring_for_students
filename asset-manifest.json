@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/digital_monitoring_for_students/static/css/main.1ab0bdb2.css",
-    "main.js": "/digital_monitoring_for_students/static/js/main.f4e8a5a0.js",
+    "main.js": "/digital_monitoring_for_students/static/js/main.79272049.js",
     "static/js/787.d5fa4d18.chunk.js": "/digital_monitoring_for_students/static/js/787.d5fa4d18.chunk.js",
     "static/media/pending-items-background-img.png": "/digital_monitoring_for_students/static/media/pending-items-background-img.175f6dc9d1cf55357fa7.png",
     "static/media/background-image.png": "/digital_monitoring_for_students/static/media/background-image.68d3ba86f3a86e5cafd1.png",
     "index.html": "/digital_monitoring_for_students/index.html",
     "main.1ab0bdb2.css.map": "/digital_monitoring_for_students/static/css/main.1ab0bdb2.css.map",
-    "main.f4e8a5a0.js.map": "/digital_monitoring_for_students/static/js/main.f4e8a5a0.js.map",
+    "main.79272049.js.map": "/digital_monitoring_for_students/static/js/main.79272049.js.map",
     "787.d5fa4d18.chunk.js.map": "/digital_monitoring_for_students/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ab0bdb2.css",
-    "static/js/main.f4e8a5a0.js"
+    "static/js/main.79272049.js"
   ]
 }
